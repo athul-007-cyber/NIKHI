@@ -168,8 +168,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("PP CLICK HERE:) ", 30, -5);
-            ctx.fillText("DHAAA IVDEE !", 28, 10);
+            ctx.fillText("PP HERE'S A SMALL GIFT FOOR YOU:) ", 30, -5);
+            ctx.fillText("CLICK HERE :) !", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -701,8 +701,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("PP CLICK HERE :)", 30, -5);
-            ctx.fillText("DHAAA IVDEE !", 28, 10);
+            ctx.fillText("PP HERE'S A SMALL GIFT FOR YOU", 30, -5);
+            ctx.fillText("CLICK HERE :)!", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -1062,5 +1062,6 @@
     window.bezier = bezier;
     window.Point = Point;
     window.Tree = Tree;
+
 
 })(window);
